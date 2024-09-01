@@ -1,0 +1,93 @@
+.lenders-placeholder-one {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -1px;
+  line-height: 3.968rem;
+  text-transform: capitalize;
+  display: inline-block;
+  min-height: 7.938rem;
+}
+.container134 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-33xl) var(--padding-12xs-7);
+}
+.lenders {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.875rem;
+  text-transform: capitalize;
+  display: inline-block;
+  min-height: 3.75rem;
+}
+.backgroundhorizontalborder10,
+.container133,
+.container135 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container135 {
+  align-items: center;
+  padding: 0 var(--padding-51xl);
+  font-size: var(--alphaafincomau-cairo-bold-20-title-size);
+}
+.backgroundhorizontalborder10,
+.container133 {
+  align-items: flex-start;
+}
+.container133 {
+  padding: 0;
+}
+.backgroundhorizontalborder10 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--alphaafincomau-white);
+  border-bottom: 8px solid var(--alphaafincomau-tree-poppy);
+  padding: var(--padding-20xl-2) var(--padding-21xl) var(--padding-20xl);
+}
+.container131,
+.container132 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.container132 {
+  height: 18.219rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+.container131 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-11xl);
+  min-width: 14.188rem;
+  min-height: 0.063rem;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--alphaafincomau-cairo-bold-488-title-size);
+  color: var(--alphaafincomau-charade1);
+  font-family: var(--alphaafincomau-cairo-regular-17);
+}
+@media screen and (max-width: 950px) {
+  .lenders-placeholder-one {
+    font-size: var(--font-size-20xl);
+    line-height: 3.188rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lenders-placeholder-one {
+    font-size: var(--font-size-10xl);
+    line-height: 2.375rem;
+  }
+  .lenders {
+    font-size: var(--font-size-base);
+    line-height: 1.5rem;
+  }
+}

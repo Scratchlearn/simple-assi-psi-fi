@@ -1,0 +1,167 @@
+.rs-sbg-px-rs-sbg-wrap-outd {
+  width: 126.738rem;
+  height: 84.638rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -4.831rem;
+  left: -3.375rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.empowering-financial-security {
+  margin: 0;
+}
+.empowering-financial-security-container1 {
+  width: 100%;
+}
+.empowering-financial-security-container,
+.we-are-committed {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.empowering-financial-security-container {
+  width: 62.5rem;
+  line-height: 4.688rem;
+}
+.we-are-committed {
+  height: 3.125rem;
+  flex: 1;
+  letter-spacing: -0.01px;
+  line-height: 1.563rem;
+  justify-content: center;
+}
+.rs-slide,
+.testimonial-author-container {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.testimonial-author-container {
+  width: 62.5rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-19xl) 0 var(--padding-20xl);
+  max-width: 100%;
+  font-size: var(--alphaafincomau-cairo-bold-20-title-size);
+  font-family: var(--alphaafincomau-roboto-regular-20);
+}
+.rs-slide {
+  margin-left: -20rem;
+  width: 120rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-563xl) var(--padding-3xl) var(--padding-339xl)
+    var(--padding-xl);
+  position: relative;
+  gap: var(--gap-41xl);
+  max-width: 150%;
+}
+.icon,
+.rs-arrow {
+  position: absolute;
+}
+.icon {
+  top: 0;
+  left: -0.187rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.rs-arrow {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 0 !important;
+  top: 36.25rem;
+  left: -18.125rem;
+  border-radius: var(--br-xl);
+  background-color: var(--alphaafincomau-black-50);
+  z-index: 2;
+}
+.icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.rs-arrow1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 36.25rem;
+  right: -18.125rem;
+  border-radius: var(--br-xl);
+  background-color: var(--alphaafincomau-black-50);
+  z-index: 2;
+}
+.container27,
+.container28 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.container28 {
+  width: 80rem;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 80rem;
+}
+.container27 {
+  position: absolute;
+  top: 6.331rem;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 120rem;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--alphaafincomau-calistoga-regular-70-size);
+  color: var(--alphaafincomau-white);
+  font-family: var(--alphaafincomau-calistoga-regular-70);
+}
+@media screen and (max-width: 1900px) {
+  .container27 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .rs-slide {
+    gap: var(--gap-11xl);
+  }
+  .container27,
+  .container28 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .empowering-financial-security-container {
+    font-size: var(--font-size-37xl);
+    line-height: 3.75rem;
+  }
+  .container27 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .empowering-financial-security-container {
+    font-size: var(--font-size-23xl);
+    line-height: 2.813rem;
+  }
+  .we-are-committed {
+    font-size: var(--font-size-base);
+    line-height: 1.25rem;
+  }
+  .container27 {
+    max-width: 100%;
+  }
+}

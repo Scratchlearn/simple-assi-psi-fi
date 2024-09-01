@@ -1,0 +1,145 @@
+/* Section3.css */
+
+/* Define the keyframes for the animation */
+@keyframes floatLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Ensure the container has overflow hidden to contain the animation */
+.section1 {
+  align-self: stretch;
+  background-color: var(--alphaafincomau-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative; /* Added for positioning context */
+}
+
+/* Positioning for the image that will float */
+.image-icon1 {
+  position: absolute; /* Ensures it can float over other elements */
+  top: 50%; /* Adjust as needed for vertical alignment */
+  left: -20%; /* Start from outside the left edge */
+  height: 12.5rem;
+  max-width: none; /* Remove any max-width constraints */
+  animation: floatLeftToRight 10s linear infinite; /* Adjust duration as needed */
+  transform: translateY(-50%); /* Center vertically if needed */
+  z-index: 2; /* Ensure it is above other images */
+}
+
+/* Style for the image border, positioned below the floating image */
+.imageborder-icon {
+  position: relative; /* Relative positioning for stacking context */
+  z-index: 1; /* Ensure it is below the floating image */
+  height: 19.063rem;
+  max-width: 100%;
+  border-radius: var(--br-xl);
+}
+
+/* Additional container and layout styles */
+.container123 {
+  width: 80rem;
+  justify-content: flex-start;
+  max-width: 80rem;
+  position: relative; /* Added for positioning context */
+}
+
+.container124,
+.container125,
+.container126,
+.container129 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container126 {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-width: 80rem;
+  row-gap: 20px;
+}
+
+.container124,
+.container125 {
+  max-width: 100%;
+}
+
+.container125 {
+  padding: var(--padding-11xl) var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+}
+
+.container124 {
+  min-height: 0.063rem;
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  30% {
+    transform: translateX(-30%); /* Stop in the middle */
+  }
+ 
+}
+
+/* Style for the background2 */
+.background2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--alphaafincomau-wild-sand);
+  max-width: 100%;
+  z-index: 0; /* Ensure it is behind both images */
+  animation: moveRightToLeft 20s linear infinite; /* Adjust duration as needed */
+}
+.container130 {
+  height: 21.563rem;
+  width: 32rem;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-height: 0.063rem;
+  max-width: 100%;
+}
+
+.container123,
+.container130,
+.section1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1425px) {
+  .container123,
+  .container126 {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .container129 {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section1 {
+    padding-top: var(--padding-20xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}

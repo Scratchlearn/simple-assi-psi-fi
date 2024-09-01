@@ -1,0 +1,139 @@
+.mask-group-icon {
+  height: 3.75rem;
+  width: 6.25rem;
+  position: relative;
+  object-fit: cover;
+}
+.container50 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 6.25rem;
+}
+.refinancing {
+  flex: 1;
+  position: relative;
+  line-height: 1.875rem;
+  text-transform: capitalize;
+}
+.container51,
+.icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.container51 {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 12.188rem;
+  max-width: 18.75rem;
+}
+.icon-wrapper {
+  align-self: stretch;
+  align-items: flex-end;
+  row-gap: 20px;
+}
+.horizontal-divider {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--alphaafincomau-chicago);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container52 {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+}
+.container52,
+.content-wrapper,
+.description-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.description-wrapper {
+  height: 0.688rem;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.content-wrapper {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.refinancing-is-the {
+  margin: 0;
+}
+.refinancing-is-the-container {
+  position: relative;
+  line-height: 1.913rem;
+}
+.refinancing-description {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  flex-shrink: 0;
+  font-size: var(--alphaafincomau-cairo-regular-17-size);
+  color: var(--alphaafincomau-chicago);
+}
+.backgroundhorizontalborder2,
+.container48,
+.container49,
+.refinancing-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.backgroundhorizontalborder2 {
+  flex: 1;
+  border-radius: var(--br-xl);
+  background-color: var(--alphaafincomau-white);
+  border-bottom: 5px solid var(--alphaafincomau-tree-poppy);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lgi);
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.container48,
+.container49 {
+  flex-direction: row;
+}
+.container49 {
+  flex: 1;
+  min-height: 0.063rem;
+  max-width: 100%;
+}
+.container48 {
+  width: 100%;
+  max-width: 80rem;
+  text-align: left;
+  font-size: var(--alphaafincomau-cairo-bold-20-title-size);
+  color: var(--alphaafincomau-charade1);
+  font-family: var(--alphaafincomau-cairo-regular-17);
+}
+@media screen and (max-width: 1425px) {
+  .container48 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .refinancing {
+    font-size: var(--font-size-base);
+    line-height: 1.5rem;
+  }
+  .icon-wrapper {
+    flex-wrap: wrap;
+  }
+  .backgroundhorizontalborder2 {
+    gap: var(--gap-lg);
+  }
+}

@@ -1,0 +1,61 @@
+/* Ensure .section-parent and .section-group have clear separation */
+.section-parent {
+  align-self: stretch;
+
+  position: relative;
+  max-width: 100%;
+  margin-bottom: 2rem; /* Add bottom margin for separation */
+}
+
+.section-group {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  margin-top: 2rem; /* Add top margin for separation */
+}
+
+/* Adjust media queries to handle screen resizing */
+@media screen and (max-width: 100900px) {
+  .container {
+    max-width: 100%;
+    padding: 0 var(--padding-301xl); /* Ensure padding is adequate */
+  }
+
+  .section-parent {
+    height: auto;
+    min-height: 1524px; /* Adjusted value */
+  }
+}
+
+@media screen and (max-width: 100425px) {
+  .container {
+    padding-left: var(--padding-141xl);
+    padding-right: var(--padding-141xl);
+    box-sizing: border-box;
+  }
+
+  .section-group {
+    height: auto;
+    min-height: 857px; /* Adjusted value */
+  }
+}
+
+
+@media screen and (max-width: 900050px) {
+  .container {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+
+  .section-group {
+    height: auto;
+    min-height: 857px; /* Adjusted value */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 100%;
+  }
+}
